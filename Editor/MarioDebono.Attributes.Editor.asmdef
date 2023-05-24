@@ -1,0 +1,18 @@
+{
+    "name": "MarioDebono.Inspector.Editor",
+    "rootNamespace": "MarioDebono.Inspector",
+    "references": [
+        "GUID:270b1c62ad40ded4fb3453fd623f5537"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

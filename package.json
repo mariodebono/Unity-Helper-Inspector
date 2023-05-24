@@ -1,0 +1,20 @@
+{
+  "name": "com.mariodebono.inspector",
+  "version": "0.1.0",
+  "displayName": "Helper Inspector",
+  "description": "Reusable Quality of Life Attributes and Property Inspectors",
+  "documentationUrl": "https://github.com/mariodebono/Unity-Helper-Inspector#readme",
+  "keywords": [
+    "Attributes",
+    "Helper Attributes",
+    "Helper Inspector",
+    "Custom Inspector",
+    "Property Inspector"
+  ],
+  "unity": "2019.4",
+  "author": {
+    "name": "Mario Debono",
+    "email": "hello@mariodebono.com",
+    "url": "https://github.com/mariodebono"
+  }
+}

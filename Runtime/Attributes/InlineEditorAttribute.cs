@@ -1,0 +1,7 @@
+using UnityEngine;
+
+namespace MarioDebono.Inspector
+{
+    public class InlineEditorAttribute : PropertyAttribute
+    { }
+}
