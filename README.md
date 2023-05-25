@@ -12,7 +12,9 @@ I put together this package for reusability to meet my needs and later decided t
 
 Use the URL in the package manager window > Add... Add package from git URL...
 
-> `https://github.com/mariodebono/Unity-Helper-Inspector.git#release/stable`
+```
+ https://github.com/mariodebono/Unity-Helper-Inspector.git#release/stable
+```
 
 ![Add Package from Git URL](./Documentation~/Resources/Add%20package%20from%20gitURL.jpg)
 
