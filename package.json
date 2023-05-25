@@ -1,6 +1,6 @@
 {
   "name": "com.mariodebono.inspector",
-  "version": "0.1.4",
+  "version": "0.1.3",
   "displayName": "Helper Inspector",
   "description": "Reusable Quality of Life Attributes and Property Inspectors",
   "documentationUrl": "https://github.com/mariodebono/Unity-Helper-Inspector#readme",
