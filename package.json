@@ -1,10 +1,11 @@
 {
   "name": "com.mariodebono.inspector",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "displayName": "Helper Inspector",
   "description": "Reusable Quality of Life Attributes and Property Inspectors",
   "documentationUrl": "https://github.com/mariodebono/Unity-Helper-Inspector#readme",
   "changelogUrl": "https://github.com/mariodebono/Unity-Helper-Inspector/blob/master/CHANGELOG.md",
+  "license": "MIT",
   "keywords": [
     "Attributes",
     "Helper Attributes",
