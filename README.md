@@ -2,7 +2,7 @@
 
 This package provides some attributes and custom inspectors to help with development.
 
-Attribution to original author in the code where required. Let me know if I have miss-attributed anyone.
+Attribution to original author in the code where other's code was used. Let me know if I have miss-attributed anyone.
 
 I put together this package for reusability to meet my needs and later decided to make it public. This was not meant to be a package that covers all possible scenarios.
 
@@ -15,6 +15,8 @@ Use the URL in the package manager window > Add... Add package from git URL...
 > `https://github.com/mariodebono/Unity-Helper-Inspector.git#release/stable`
 
 ![Add Package from Git URL](./Documentation~/Resources/Add%20package%20from%20gitURL.jpg)
+
+### Add in Manifest
 
 Modify your `manifest.json` file found at `/PROJECTNAME/Packages/manifest.json` and add the following line:
 
