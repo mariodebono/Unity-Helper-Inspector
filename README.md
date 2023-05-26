@@ -44,6 +44,8 @@ Modify your `manifest.json` file found at `/PROJECTNAME/Packages/manifest.json` 
   - String
   - Float
   - Int32
+  - Vector2
+  - Vector3
   - Unity Objects (like ScriptableObject)
 
 ### ReadOnly
@@ -128,6 +130,8 @@ Currently some method parameter types are supported
 - String
 - Float
 - Int32
+- Vector2
+- Vector3
 - Unity Objects (like ScriptableObject)
 
 **Method with no parameters**
