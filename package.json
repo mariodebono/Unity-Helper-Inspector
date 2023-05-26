@@ -22,8 +22,12 @@
   },
   "auto-changelog": {
     "output": "CHANGELOG.md",
-    "template": "keepachangelog",
+    "template": "templates~/changelog-template.hbs",
     "unreleased": false,
-    "commitLimit": false
+    "commitLimit": false,
+    "breakingPattern": "BREAKING",
+    "ignoreCommitPattern": "^[Cc][Hh][Oo][Rr][Ee].?:?",
+    "issuePattern": "^[Ff][Ii][xX].?:?",
+    "issueUrl": "https://github.com/mariodebono/Unity-Helper-Inspector/"
   }
 }
