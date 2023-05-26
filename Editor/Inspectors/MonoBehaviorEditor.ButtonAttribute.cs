@@ -113,6 +113,14 @@ namespace MarioDebono.Inspector
                                     if (methodParam == null) methodParam = 0f;
                                     methodParam = EditorGUI.FloatField(parameterPos, param.Name, (float)methodParam);
                                     break;
+                                case "Vector3":
+                                    if (methodParam == null) methodParam = Vector3.zero;
+                                    methodParam = EditorGUI.Vector3Field(parameterPos, param.Name, (Vector3)methodParam);
+                                    break;
+                                case "Vector2":
+                                    if (methodParam == null) methodParam = Vector2.zero;
+                                    methodParam = EditorGUI.Vector2Field(parameterPos, param.Name, (Vector2)methodParam);
+                                    break;
 
                                 default:
                                     if (param.ParameterType.IsSubclassOf(typeof(UnityEngine.Object)))
