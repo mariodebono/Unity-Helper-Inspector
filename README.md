@@ -1,5 +1,7 @@
 # Unity Helper Inspector
 
+[![openupm](https://img.shields.io/npm/v/com.mariodebono.inspector?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.mariodebono.inspector/)
+
 This package provides some attributes and custom inspectors to help with development.
 
 Attribution to original author in the code where other's code was used. Let me know if I have miss-attributed anyone.
@@ -30,6 +32,22 @@ Modify your `manifest.json` file found at `/PROJECTNAME/Packages/manifest.json` 
     ...
   }
 }
+```
+
+### OpenUPM
+
+Install using openupm
+
+URL:
+
+```
+https://openupm.com/packages/com.mariodebono.inspector
+```
+
+CLI:
+
+```bash
+openupm add com.mariodebono.inspector
 ```
 
 ---
