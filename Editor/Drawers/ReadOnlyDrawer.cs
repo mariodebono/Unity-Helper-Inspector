@@ -1,7 +1,6 @@
 using dninosores.UnityEditorAttributes;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 namespace MarioDebono.Inspector
 {
