@@ -54,6 +54,7 @@ openupm add com.mariodebono.inspector
 
 ## Features
 
+- Interface Attribute for serializing iterfaces in inspector
 - Read Only fields
 - Inline Editor for objects
   - Supports ReadOnly On `Field` or `Field + Content`
@@ -65,6 +66,63 @@ openupm add com.mariodebono.inspector
   - Vector2
   - Vector3
   - Unity Objects (like ScriptableObject)
+
+### Interface Attribute
+
+Unity does not serialize interfaces, so interface types will not display in inspector. This is considered a workaround but solves the problem to an extent.
+
+**Limitiations**
+This works only for reference fields, these include `Components` (like MonoBehaviour) and `ScriptableObjects`, I normaly work with `UnityEngine.Object`.
+
+_Examples:_
+
+We use `UnityEngine.Object` as a base type for all unity objects
+
+Lets say we have interface `IThing` and implementation:
+
+```csharp
+public interface IThing {
+
+  public string ThingName { get; }
+
+}
+
+public class TestComponent : MonoBehaviour, IThing
+{
+    public string ThingName => this.name;
+}
+
+```
+
+we can reference IThing in another script like so:
+
+> Decorate with InterfaceAttribute and pass the interface type
+
+```csharp
+
+[SerializeField, Interface(typeof(IThing))] UnityEngine.Object thing;
+private IThing Thing => thing as IThing;
+
+private void Start()
+{
+  Debug.Log(Thing.ThingName);
+}
+
+```
+
+**Inspector**
+
+The field will show as a normal field
+
+!["Interface reference field](./Documentation~/Resources/Interface%20Reference%20Field.png)
+
+and
+
+!["Interface reference field with value](./Documentation~/Resources/Interface%20Reference%20Field-assigned.png)
+
+If you use a non referece type you get an error in the inspector
+
+!["Interface reference field with error](./Documentation~/Resources/Interface%20Reference%20Field-Error.png)
 
 ### ReadOnly
 
